@@ -5,8 +5,9 @@
  */
 
 var app = require('../app');
-var debug = require('debug')('backend-project:server');
+var debug = require('debug')('u-bread:server');
 var http = require('http');
+require('../database');
 
 /**
  * Get port from environment and store in Express.
